@@ -1,4 +1,4 @@
-package ProjetoTeste;
+package Secao1;
 
 import org.hamcrest.Matchers;
 import org.junit.Assert;

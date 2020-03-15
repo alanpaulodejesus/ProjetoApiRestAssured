@@ -1,4 +1,4 @@
-package ProjetoTeste;
+package Secao1;
 
 import Properties.Properties;
 import io.restassured.RestAssured;
