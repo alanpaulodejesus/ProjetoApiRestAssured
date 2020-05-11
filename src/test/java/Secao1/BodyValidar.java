@@ -16,7 +16,7 @@ public class BodyValidar {
                 .when()
                     .get(Properties.URL)
                 .then()
-                    .statusCode(200)
+                    .statusCode(400)
                     .body(Matchers.is("Ola Mundo!"))
                     .body(Matchers.containsString("Mundo")) //Verifica se possui uma palavra
                     .body(Matchers.is(Matchers.notNullValue())) //Verifica que não está vazio
